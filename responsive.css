@@ -1,0 +1,127 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+/* GLOBAL STYLES */
+
+body {
+  margin:0;
+  padding:0;
+  background:maroon;
+}
+
+header {
+  background: black;
+  color: #444;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1em;
+}
+h2 {
+  font-size: 1.5em;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #eee;
+  text-align: center;
+  padding: 0px;
+}
+section {
+  font-size: 2em;
+  background: #888;
+  width: 22%;
+  margin: 1em 1% 1em 1%;
+  display: inline-block;
+}
+section:hover {
+  background: #666;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	-moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    background: ; 
+    padding: 20px;
+
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+img {
+	margin-left: 10;
+	margin-right: 1900px;
+	
+}
+
+
+
+/*
+  - this applies to any screen sizes under 500px
+  - if you leave the width off, sections will automatically fill the full page width
+  - no margins and little or no padding
+*/
+
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px){
+	body {
+		background: grey;
+	}
+		section {
+		width: 44%
+		display: inline-block;
+	}
+	header {
+  background: black;
+  color: #444;
+  text-align: center;
+	
+  /* 
+
+    - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
+    - add any hover states here
+    - increase font sizes
+    - add margins and padding to space things out
+    - decrease width of sections
+    - add `display: inline-block;` so that sections will float next to each other
+  */
+}
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 900px) {
+	body {
+		background: green;
+	}
+	section{
+		width: 22%
+	}
+  /*
+    - applies to screens larger than 999px only
+    - add a max-width to your main section
+    - further decrease size of sections
+    - increase size of headings and global fonts
+  */
+}
+/* END SECOND BREAKPOINT */
