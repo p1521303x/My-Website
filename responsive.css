@@ -6,37 +6,17 @@ body {
   padding:0;
   background:maroon;
 }
+/* allow the page to auto arrange itr margin and set with 1000px   */
+.wrapper {
+	margin: 0px auto;
+	width: 1000px;
+	background-color: clear;
+}
 
 header {
   background: black;
-  color: #444;
-  text-align: center;
 }
-h1 {
-  font-size: 2.5em;
-  margin: 0;
-  padding: 1em;
-}
-h2 {
-  font-size: 1.5em;
-}
-main {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #eee;
-  text-align: center;
-  padding: 0px;
-}
-section {
-  font-size: 2em;
-  background: #888;
-  width: 22%;
-  margin: 1em 1% 1em 1%;
-  display: inline-block;
-}
-section:hover {
-  background: #666;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -57,7 +37,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 	-moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;  /* easing in and out fading effect on the navigation bar*/
     -webkit-transition: all .3s ease-in;
     transition: all .3s ease-in;
     background: ; 
@@ -66,14 +46,97 @@ li a {
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: black;
 }
+/* Can change the margins of the logo */
 img {
 	margin-left: 10;
 	margin-right: 1900px;
-	
+
 }
 
+.slider{
+	overflow: hidden;
+	height:500px;
+	
+}.slider figure div{
+		width: 20%;
+		float:left;
+}
+}.slider figure img{
+		width: 20%;
+		float:left;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 25s slider infinite;
+}
+
+@keyframes slider{
+	0% {
+		left: 0%;
+	}
+	10% {
+		left: 0%;
+	}
+	12% {
+		left: -100%;
+	}
+	22% {
+		left: -100%;
+	}
+	24% {
+		left: -200%;
+	}
+	34% { 
+		left: -200%;
+	}
+	36% {
+		left: -300%;
+	}
+	40% {
+		left: -300%;
+	}
+	44% {
+		left: -400%;
+	}
+	48$ {
+		left: -400%; /* final frame from here goes backward */
+	}
+	58% { 
+		left: -400%;
+	}
+	60% {
+		left: -300%;
+	}
+	70% {
+		left: -300%;
+	}
+	72% {
+		left: -200%;
+	}
+	82% {
+		left: -200%;
+	}
+	84% {
+		left: -100%;
+	}
+	94% { 
+		left: -100%;
+	}
+	96% {
+		left: -0%;
+	}
+}
+.container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	tranform:translate(-50%, -50%);
+}
 
 
 /*
@@ -83,19 +146,14 @@ img {
 */
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
 	body {
-		background: grey;
+		background:white;
 	}
 		section {
 		width: 44%
 		display: inline-block;
 	}
-	header {
-  background: black;
-  color: #444;
-  text-align: center;
-	
   /* 
 
     - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
@@ -106,13 +164,21 @@ img {
     - add `display: inline-block;` so that sections will float next to each other
   */
 }
+
+
+
+
+
+
+
+
 /* END FIRST BREAKPOINT */
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
 	body {
-		background: green;
+		background:grey;
 	}
 	section{
 		width: 22%
