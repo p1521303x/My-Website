@@ -18,7 +18,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-
 }
 
 li {
@@ -29,7 +28,7 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px 10px;
     text-decoration: none;
 	-moz-transition: all .3s ease-in;
@@ -37,13 +36,279 @@ li a {
     -webkit-transition: all .3s ease-in;
     transition: all .3s ease-in;
     padding: 10px;
-	
-
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: black;
 }
+
+.slider{
+	overflow: hidden;
+	height:180px;
+	
+}.slider figure div{
+		width: 20%;
+		float:left;
+
+}.slider figure img{
+		width: 100%;
+		float:left;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 25s slider infinite;
+}
+
+@keyframes slider{
+	0% {
+		left: 0%;
+	}
+	10% {
+		left: 0%;
+	}
+	12% {
+		left: -100%;
+	}
+	22% {
+		left: -100%;
+	}
+	24% {
+		left: -200%;
+	}
+	34% { 
+		left: -200%;
+	}
+	36% {
+		left: -300%;
+	}
+	40% {
+		left: -300%;
+	}
+	44% {
+		left: -400%;
+	}
+	48$ {
+		left: -400%; /* final frame from here goes backward */
+	}
+	58% { 
+		left: -400%;
+	}
+	60% {
+		left: -300%;
+	}
+	70% {
+		left: -300%;
+	}
+	72% {
+		left: -200%;
+	}
+	82% {
+		left: -200%;
+	}
+	84% {
+		left: -100%;
+	}
+	94% { 
+		left: -100%;
+	}
+	96% {
+		left: -0%;
+	}
+}
+.xop-grid {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	text-align: bottom;
+	width: auto;
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after,
+.xop-box:before {
+	content: '';
+    display: table;
+}
+
+.xop-grid li {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 2px;
+}
+
+.xop-box {
+	width: auto;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/mens.jpg);
+}
+
+.xop-img-2 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/mix.jpg);
+}
+
+.xop-img-3 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womens.jpg);
+}
+.social{
+	position: absolute;
+	background-color: #fff;
+	top:333%;
+	left:25%;
+	margin: 0px auto;
+	width: 200px;
+	transform: translate(-50%,-50%);
+}
+.social ul{
+	list-style: none;
+	margin:0%;
+	padding:0%;
+	display:flex;
+	background-color: black;	
+}
+/* style the list item inside ul list, by setting its width =, height, line-height and float etc */
+.social ul li{
+	width: 40px;
+	height: 40px;
+	line-height: 55px;
+ 	margin: 20 20px;
+	text-align: center-right;
+	cursor: pointer;
+	border-radius: 20%;
+	border: 5px solid #fff;
+	float: right;
+	transition: all 0.5s ease;	
+}
+	
+/* instagram */
+/* style icon by setting its colour and margins */
+.social ul li fa-instagram{
+	color: #fff;
+	margin-top: 40%;
+	margin-left: 40%;
+	transition: all 0.5s ease;
+}
+
+.social ul li:hover:nth-child(1){
+	border: 5px solid #C32AA3;
+	box-shadow: 0 0 15px #C32AA3;
+	transition: all 0.5s ease;
+}
+.social ul li:hover .fa fa-instagram{
+	color:#C32AA3;
+	text-shadow: 0 0 15px #C32AA3;
+	transition: all 0.5s ease;	
+}
+
+/* facebook */
+.social ul li .fa{
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 22px;
+	transition: all 0.5s ease;
+}
+.social ul li:hover:nth-child(2){
+	border: 5px solid #3b5998;
+	box-shadow: 0 0 15px #3b5998;
+	transition: all 0.5s ease;
+}
+.social ul li:hover .fa fa-facebook{
+	color: #3B5998;
+	text-shadow: 0 0 15px #3B5998;
+	transition: all 0.5s ease;	
+}
+/* twitter */
+.social ul li .fa{
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 22px;
+	transition: all 0.5s ease;
+}
+.social ul li:hover:nth-child(3){
+	border: 5px solid #00B6F1;
+	box-shadow: 0 0 15px #00B6F1;
+	transition: all 0.5s ease;
+}
+.social ul li:hover .fa fa-twitter-square{
+	color: #00B6F1;
+	text-shadow: 0 0 15px #00B6F1;
+	transition: all 0.5s ease;	
+}
+/* google */
+.social ul li .fa{
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 22px;
+	transition: all 0.5s ease;
+}
+.social ul li:hover:nth-child(4){
+	border: 5px solid #DF4A32;
+	box-shadow: 0 0 15px #DF4A32;
+	transition: all 0.5s ease;
+}
+.social ul li:hover .fa fa-google-plus{
+	color: #DF4A32;
+	text-shadow: 0 0 15px #DF4A32;
+	transition: all 0.5s ease;
+}
+.footer{
+	margin: 60px;
+	height: 60px;
+	width: auto;
+	position:relative;
+	right:60px;
+	bottom:56px;
+	border-radius:5px;
+	color:white;
+	text-align:center;
+	padding: 0px;
+	font-size: 100%;
+	background-color: black;
+}
+
+
+
 /*
   - this applies to any screen sizes under 500px
   - if you leave the width off, sections will automatically fill the full page width
@@ -56,7 +321,7 @@ li a:hover {
 		background:white;
 	}
 		section {
-		width: 44%;
+		width: 500px;
 		display: block;
 	}
   /* 
@@ -128,7 +393,6 @@ li a:hover {
 img {
 	margin-left: 10;
 	margin-right: 1900px;
-
 }
 
 .slider{
@@ -282,6 +546,7 @@ img {
     url(images/womens.jpg);
 }
 
+
 /* Mens Page from here***************************************************** */
 .xop-img-4 { 
  background: 
@@ -338,7 +603,7 @@ img {
     url(images/nikeforce.jpg);
 }
 
-
+/*************************************************************************************************/
 
 .xop-info {
 	position: absolute;
@@ -367,13 +632,13 @@ img {
 .social{
 	position: absolute;
 	background-color: #fff;
-	top:171%;
+	top:158%;
 	left:21%;
 	margin: 0px auto;
 	width: 200px;
 	transform: translate(-50%,-50%);
-	
 }
+
 .social ul{
 	list-style: none;
 	margin:0%;
@@ -475,8 +740,6 @@ img {
 height:400px;
 width:100%;	
 }
-
-}
 .footer{
 	margin: 60px;
 	height: 60px;
@@ -491,14 +754,3 @@ width:100%;
 	font-size: 100%;
 	background-color: black;
 }
-
-
-
-  /*
-    - applies to screens larger than 999px only
-    - add a max-width to your main section
-    - further decrease size of sections
-    - increase size of headings and global fonts
-  */
-  
-/* END SECOND BREAKPOINT */
