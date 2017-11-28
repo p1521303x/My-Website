@@ -282,6 +282,7 @@ img {
     url(images/womens.jpg);
 }
 
+/* Mens Page from here***************************************************** */
 .xop-img-4 { 
  background: 
     linear-gradient(
@@ -289,8 +290,55 @@ img {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/feather.jpg);
+    url(images/nikeairforce.jpg);
 }
+.xop-img-5 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/vansoldschool.jpg);
+}
+.xop-img-6 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/nikefs.jpg);
+}
+.xop-img-7 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/nikewinter.jpg);
+}
+.xop-img-8 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/nikeairmax.jpg);
+}
+.xop-img-9 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/nikeforce.jpg);
+}
+
+
 
 .xop-info {
 	position: absolute;
@@ -417,6 +465,17 @@ img {
 	color: #DF4A32;
 	text-shadow: 0 0 15px #DF4A32;
 	transition: all 0.5s ease;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+#map{ /* google maps api layout  */
+height:400px;
+width:100%;	
+}
+
 }
 .footer{
 	margin: 60px;
