@@ -2,6 +2,7 @@ function initMap(){
       // Map options
       var options = {
         zoom:8,
+		//corridinates of set to the marked place where store is located
         center:{lat:52.636670,lng:-1.136420}
       }
 
@@ -54,6 +55,30 @@ function initMap(){
         }
       }
     }
-	
-	
-	
+
+	var i = 0; // Start point
+	var images = [];
+	var time = 1000;
+
+	// Image List
+	images[0] = 'img/slides/nikemax90.jpg';
+	images[1] = 'img/slides/discount.jpg';
+	images[2] = 'img/slides/Nikeair.jpg';
+	images[3] = 'img/slides/Adidas.jpg';
+
+	// Change Image
+	function changeImg(){
+		document.slide.src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
+
+		

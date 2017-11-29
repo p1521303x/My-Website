@@ -138,9 +138,9 @@ li a:hover {
 }
 
 .xop-grid li {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
+	width: 300px;
+	height: 300px;
+	display: block;
 	margin: 2px;
 }
 
@@ -306,7 +306,10 @@ li a:hover {
 	font-size: 100%;
 	background-color: black;
 }
-
+#map{ /* google maps api layout  */
+height:400px;
+width:auto;	
+}
 
 
 /*
@@ -548,6 +551,8 @@ img {
 
 
 /* Mens Page from here***************************************************** */
+}
+
 .xop-img-4 { 
  background: 
     linear-gradient(
@@ -753,4 +758,12 @@ width:100%;
 	padding: 0px;
 	font-size: 100%;
 	background-color: black;
+}
+h1 {
+  font-size: 1.25em;
+  text-align: center;
+  background: #444;
+  color: #eee;
+  margin: 0;
+  padding: 0.5em;
 }
