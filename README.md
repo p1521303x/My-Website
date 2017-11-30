@@ -9,8 +9,7 @@ The issues was not resolved hoewever the websites is still responsive for users 
 4. making the slides for javascript was not a proble, however when it came to being responsive I was unable to find what codes was needed to change its size so it can be responsive for mobile use.
 Was unable to resolve the issue and is left to default size for large screens.
 
-Wireframe
-
+wireframe
 
 
 
