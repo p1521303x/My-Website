@@ -1,13 +1,13 @@
 function initMap(){
       // Map options
-      var options = {
+      let options = {
         zoom:8,
 		//corridinates of set to the marked place where store is located
         center:{lat:52.636670,lng:-1.136420}
       }
 
       // New map
-      var map = new google.maps.Map(document.getElementById('map'), options);
+      let map = new google.maps.Map(document.getElementById('map'), options);
 
       // Listen for click on map
       google.maps.event.addListener(map, 'click', function(event){
@@ -16,7 +16,7 @@ function initMap(){
       });
 
       // Array of markers
-      var markers = [
+      let markers = [
         {
           coords:{lat:52.636670,lng:-1.136420},
      
@@ -24,14 +24,14 @@ function initMap(){
       ];
 
       // Loop through markers
-      for(var i = 0;i < markers.length;i++){
+      for(let i = 0;i < markers.length;i++){
         // Add marker
         addMarker(markers[i]);
       }
 
       // Add Marker Function
       function addMarker(props){
-        var marker = new google.maps.Marker({
+        let marker = new google.maps.Marker({
           position:props.coords,
           map:map,
           //icon:props.iconImage
@@ -45,7 +45,7 @@ function initMap(){
 
         // Check content
         if(props.content){
-          var infoWindow = new google.maps.InfoWindow({
+          let infoWindow = new google.maps.InfoWindow({
             content:props.content
           });
 
@@ -56,17 +56,21 @@ function initMap(){
       }
     }
 
-	var i = 0; // Start point
-	var images = [];
-	var time = 1000;
+	let i = 0; // Start point for the images
+	let images = [];
+	let time = 1000;
 
 	// Image List
 	images[0] = 'img/slides/nikemax90.jpg';
+	width: 'auto';
 	images[1] = 'img/slides/discount.jpg';
+	width: 'auto';
 	images[2] = 'img/slides/Nikeair.jpg';
+	width: 'auto';
 	images[3] = 'img/slides/Adidas.jpg';
+	width: 'auto';
 
-	// Change Image
+	// Change Image function
 	function changeImg(){
 		document.slide.src = images[i];
 

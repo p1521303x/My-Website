@@ -1,10 +1,9 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 /* GLOBAL STYLES */
-
 body {
   margin:0;
   padding:0;
-  background:maroon;
+  background:#c6c5c5;
 }
 /* allow the page to auto arrange itr margin and set with 1000px   */
 .wrapper {
@@ -12,6 +11,7 @@ body {
 	width: 0px auto;
 	background-color: clear;
 }
+/* this allow the logo to be resized or moved on the page*/
 .logo {
 	margin-left: 10px;
 	margin-right: 1900px;
@@ -70,7 +70,7 @@ li a:hover {
 	left: 0;
 	animation: 25s slider infinite;
 }
-
+/* this key fram is used for the slider on the first page*/
 @keyframes slider{
 	0% {
 		left: 0%;
@@ -127,6 +127,7 @@ li a:hover {
 		left: -0%;
 	}
 }
+/* this is the grid used on the homepage to show images in square boxes*/
 .xop-grid {
 	margin: 0px;
 	padding: 0px;
@@ -158,8 +159,10 @@ li a:hover {
 .xop-box:hover {
 	transform: scale(1.05); 
 }
-.xop-img-1 { 
- background: 
+.xop-img-1 {
+	
+ background:
+	
     linear-gradient(
       rgba(0, 0, 0, 0.50), 
       rgba(0, 0, 0, 0.10)
@@ -188,15 +191,16 @@ li a:hover {
     /* bottom, image */
     url(images/womens.jpg);
 }
-
+/* this allows to resize the map used on contact page*/
 #map{ /* google maps api layout  */
 height:400px;
 width:auto;	
 }
+/*this is for the social media icons */
 .social{
 	position: absolute;
 	background-color: #fff;
-	top:35px;
+	top:85px;
 	left:96px;
 	margin: 0px auto;
 	width: auto;
@@ -223,6 +227,8 @@ width:auto;
 	float: right;
 	transition: all 0.5s ease;	
 }
+
+
 /*
   - this applies to any screen sizes under 500px
   - if you leave the width off, sections will automatically fill the full page width
@@ -232,12 +238,87 @@ width:auto;
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
 	body {
-		background:white;
+		background:#4d4646;
 	}
 		section {
 		width: 500px;
 		display: block;
 	}
+	
+	.xop-grid {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	text-align: left;
+	width: 100%;
+
+}
+
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after,
+.xop-box:before {
+	content: '';
+    display: table;
+}
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 2px;
+}
+
+.xop-box {
+	width: 328px;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box:hover {
+	transform: scale(1.05); 
+}
+
+.xop-img-1 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/mens.jpg);
+}
+
+.xop-img-2 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/mix.jpg);
+}
+
+.xop-img-3 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womens.jpg);
+}
   /* 
     applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
     - add any hover states here
@@ -384,16 +465,34 @@ li a:hover {
 		left: -0%;
 	}
 }
-.xop-grid {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	display: block;
-	text-align: right;
-	width: 100%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+	-moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;  /* easing in and out fading effect on the navigation bar*/
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    padding: 10px;
 
 }
 
+/* This code is been used from a source (see reference) which is amended to fit for my website "used as guidance"*/
 .xop-grid:after {
 	clear: both;
 }
@@ -516,44 +615,28 @@ li a:hover {
     /* bottom, image */
     url(images/nikeforce.jpg);
 }
+.xop-img-10 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/nikebrown.jpg);
+}.xop-img-11 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/filawhite.jpg);
+}
 
 /*************************************************************************************************/
 
-.xop-info {
-	position: absolute;
-	width: inherit;
-	height: inherit;
 }
-
-.xop-info h3 {
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-	color: #fff;
-	font-size: 42px;
-	margin: 0 30px;
-	padding: 100px 0 0 0;
-	line-height:1.5;
-}
-
-.xop-info p {
-    font-family: 'Source Sans Pro', sans-serif;
-	color: #fff;
-	padding: 4px 5px;
-	margin: 0 30px;
-	font-size: 14px;
-	line-height:2;
-}
-/*socail media icons  */
-.social{
-	position: absolute;
-	background-color: #fff;
-	top:80px;
-	left:96px;
-	margin: 0px auto;
-	width: 200px;
-	transform: translate(-50%,-50%);
-}
-
+/*socail media icons */
 .social ul{
 	list-style: none;
 	margin:0%;
@@ -682,10 +765,11 @@ article{
 	color:black;
 	width:auto;
 }
+/* this is for the table used on the homepage to show time and days the store is open*/
 #openingtimes {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
 	text-align: center;
 }
 
@@ -705,3 +789,4 @@ article{
     background-color: black;
     color: white;
 }
+
