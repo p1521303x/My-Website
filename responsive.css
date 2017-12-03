@@ -200,7 +200,7 @@ width:auto;
 .social{
 	position: absolute;
 	background-color: #fff;
-	top:85px;
+	top:45px;
 	left:96px;
 	margin: 0px auto;
 	width: auto;
@@ -738,9 +738,9 @@ li a {
 height:400px;
 width:100%;	
 }
-.footer{
+.footer{  /* footer for the website*/
 	margin: 60px;
-	height: 60px;
+	height: 70px;
 	width: 100%;
 	position:relative;
 	right:60px;
@@ -748,7 +748,7 @@ width:100%;
 	border-radius:5px;
 	color:white;
 	text-align:center;
-	padding: 25px;
+	padding: 0px;
 	font-size: 100%;
 	background-color: black;
 }
