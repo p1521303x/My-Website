@@ -15,6 +15,8 @@ Was unable to resolve the issue and is left to default size for large screens.
 Also it have increase my ability to learn more of css and javascript, I have also learnt to add tranisitions & animation to website by coding.
 finally one of the most important aspect was learn is to structure the codes which was a huge benifit for me was I was aware of what the codes was used for and I was able to find the codes quickly I i needed to make changes to a certain aspect to the website.
 
+- Moving all the images to one folder was causing issues to the website therefore left it how it is as its working.
+
 Screen Designs
 
 

@@ -558,7 +558,7 @@ li a {
     url(images/womens.jpg);
 }
 
-/* Mens Page from here***************************************************** */
+/* images for Mens Page from here***************************************************** */
 }
 
 .xop-img-4 { 
@@ -632,6 +632,81 @@ li a {
     /* bottom, image */
     url(images/filawhite.jpg);
 }
+/************************************************************************************************/
+/* womens pages from here (images)*/
+.xop-img-12 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womensforcepink.jpg);
+}
+.xop-img-13 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womensforcet.jpg);
+}
+.xop-img-14 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womensmax17.jpg);
+}
+.xop-img-15 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womensnmdpink.jpg);
+}
+.xop-img-16 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womenspurple.jpg);
+}
+.xop-img-17 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womensrun.jpg);
+}
+.xop-img-18 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womensnikeair.jpg);
+}.xop-img-19 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(images/womenswhitenmd.jpg);
+}
+
+
 
 /*************************************************************************************************/
 

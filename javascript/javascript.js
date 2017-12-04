@@ -28,6 +28,7 @@ function initMap(){
         // Add marker
         addMarker(markers[i]);
       }
+	  
 
       // Add Marker Function
       function addMarker(props){
@@ -55,6 +56,7 @@ function initMap(){
         }
       }
     }
+	// For the slider on mens page
 
 	let i = 0; // Start point for the images
 	let images = [];
