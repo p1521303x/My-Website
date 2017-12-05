@@ -529,13 +529,14 @@ li a {
 }
 
 .xop-img-1 { 
- background: 
+ background:
     linear-gradient(
       rgba(0, 0, 0, 0.50), 
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
     url(images/mens.jpg);
+	
 }
 
 .xop-img-2 { 
