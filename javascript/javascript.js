@@ -63,13 +63,11 @@ function initMap(){
 	let time = 1000;
 
 	// Image List
-	images[0] = 'img/slides/nikemax90.jpg';
+	images[0] = 'images/slides/slide1.jpg';
 	width: 'auto';
-	images[1] = 'img/slides/discount.jpg';
+	images[1] = 'images/slides/slide2.jpg';
 	width: 'auto';
-	images[2] = 'img/slides/Nikeair.jpg';
-	width: 'auto';
-	images[3] = 'img/slides/Adidas.jpg';
+	images[2] = 'images/slides/slide3.jpg';
 	width: 'auto';
 
 	// Change Image function
