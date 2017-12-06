@@ -869,23 +869,15 @@ article{
     background-color: black;
     color: white;
 }
-.center
-{
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
 .mens {
-	width: 100px;
-	height: 100px;
-	background: orange;
-	border-radius: 50%;
+	width: auto;
+	height: auto;
+	background: black;
+	border-radius: 1%;
 	color: #fff;
 	font-size: 20px;
 	text-align:center;
-	line-height:100px;
+	line-height:50px;
 	font-family: verdana;
 	animation: animate 3s linear infinite;
 }
@@ -901,10 +893,10 @@ article{
 	}
 	80%
 	{
-		box-shadow: 0 0 0 50px rgba(255,109,74,.7);
+		box-shadow: 0 0 0 50px rgba(255,109,74,.0);
 	}
 	100%
 	{
-		box-shadow: 0 0 0 0 rgba(255,109,74,.7);
+		box-shadow: 0 0 0 0 rgba(255,109,74,.0);
 	}
 }
