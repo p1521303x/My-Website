@@ -168,7 +168,7 @@ li a:hover {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/mens.jpg);
+    url(../images/mens.jpg);
 }
 
 .xop-img-2 { 
@@ -179,7 +179,7 @@ li a:hover {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/mix.jpg);
+    url(../images/mix.jpg);
 }
 
 .xop-img-3 { 
@@ -189,7 +189,7 @@ li a:hover {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womens.jpg);
+    url(../images/womens.jpg);
 }
 /* this allows to resize the map used on contact page*/
 #map{ /* google maps api layout  */
@@ -297,7 +297,7 @@ width:auto;
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/mens.jpg);
+    url(../images/mens.jpg);
 }
 
 .xop-img-2 { 
@@ -307,7 +307,7 @@ width:auto;
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/mix.jpg);
+    url(../images/mix.jpg);
 }
 
 .xop-img-3 { 
@@ -317,7 +317,7 @@ width:auto;
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womens.jpg);
+    url(../images/womens.jpg);
 }
   /* 
     applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
@@ -535,7 +535,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/mens.jpg);
+    url(../images/mens.jpg);
 	
 }
 
@@ -546,7 +546,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/mix.jpg);
+    url(../images/mix.jpg);
 }
 
 .xop-img-3 { 
@@ -556,12 +556,16 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womens.jpg);
+    url(../images/womens.jpg);
 }
 
 /* images for Mens Page from here***************************************************** */
+h2 {
+	text-align:center;
 }
 
+
+}
 .xop-img-4 { 
  background: 
     linear-gradient(
@@ -569,7 +573,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/nikeairforce.jpg);
+    url(../images/nikeairforce.jpg);
 }
 .xop-img-5 { 
  background: 
@@ -578,7 +582,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/vansoldschool.jpg);
+    url(../images/vansoldschool.jpg);
 }
 .xop-img-6 { 
  background: 
@@ -587,7 +591,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/nikefs.jpg);
+    url(../images/nikefs.jpg);
 }
 .xop-img-7 { 
  background: 
@@ -596,7 +600,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/nikewinter.jpg);
+    url(../images/nikewinter.jpg);
 }
 .xop-img-8 { 
  background: 
@@ -605,7 +609,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/nikeairmax.jpg);
+    url(../images/nikeairmax.jpg);
 }
 .xop-img-9 { 
  background: 
@@ -614,7 +618,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/nikeforce.jpg);
+    url(../images/nikeforce.jpg);
 }
 .xop-img-10 { 
  background: 
@@ -623,7 +627,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/nikebrown.jpg);
+    url(../images/nikebrown.jpg);
 }.xop-img-11 { 
  background: 
     linear-gradient(
@@ -631,7 +635,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/filawhite.jpg);
+    url(../images/filawhite.jpg);
 }
 /************************************************************************************************/
 /* womens pages from here (images)*/
@@ -642,7 +646,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womensforcepink.jpg);
+    url(../images/womensforcepink.jpg);
 }
 .xop-img-13 { 
  background: 
@@ -651,7 +655,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womensforcet.jpg);
+    url(../images/womensforcet.jpg);
 }
 .xop-img-14 { 
  background: 
@@ -660,7 +664,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womensmax17.jpg);
+    url(../images/womensmax17.jpg);
 }
 .xop-img-15 { 
  background: 
@@ -669,7 +673,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womensnmdpink.jpg);
+    url(../images/womensnmdpink.jpg);
 }
 .xop-img-16 { 
  background: 
@@ -678,7 +682,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womenspurple.jpg);
+    url(../images/womenspurple.jpg);
 }
 .xop-img-17 { 
  background: 
@@ -687,7 +691,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womensrun.jpg);
+    url(../images/womensrun.jpg);
 }
 .xop-img-18 { 
  background: 
@@ -696,7 +700,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womensnikeair.jpg);
+    url(../images/womensnikeair.jpg);
 }.xop-img-19 { 
  background: 
     linear-gradient(
@@ -704,7 +708,7 @@ li a {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(images/womenswhitenmd.jpg);
+    url(../images/womenswhitenmd.jpg);
 }
 
 
@@ -865,4 +869,42 @@ article{
     background-color: black;
     color: white;
 }
+.center
+{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
 
+.mens {
+	width: 100px;
+	height: 100px;
+	background: orange;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 20px;
+	text-align:center;
+	line-height:100px;
+	font-family: verdana;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,.7);
+	}
+	40%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,.7);
+	}
+	80%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,.7);
+	}
+	100%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,.7);
+	}
+}

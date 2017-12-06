@@ -1,4 +1,4 @@
-<h1> **what did not go well and what I learnt** </h1>
+<h1> **What did not go well and what I learnt** </h1>
 
 1. Trying to place the social media icons in the footer was tricky, everytime the size of the website changed the social media icon was all over the place however by visiting official websites online and seeing how their code was placed enhanced my learning to code as for my website I only needed to code the icons coding inside the "footer" element to place the social media sites in the footer.
 
