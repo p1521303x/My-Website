@@ -18,6 +18,7 @@ body {
 	width:25%;
 	height:25%; 
 }
+/* this is for the menu for to fit mobile use*/
 ul {
     list-style-type: none;
 	display: block;
@@ -49,6 +50,7 @@ li a:hover {
     background-color: black;
 }
 
+/* this is the slide show */
 .slider{
 	overflow: hidden;
 	height:auto;
@@ -159,6 +161,8 @@ li a:hover {
 .xop-box:hover {
 	transform: scale(1.05); 
 }
+
+/* 3 images on the homepage used inside a grid*/
 .xop-img-1 {
 	
  background:
@@ -167,7 +171,7 @@ li a:hover {
       rgba(0, 0, 0, 0.50), 
       rgba(0, 0, 0, 0.10)
     ),
-    /* bottom, image */
+    /* URL for the image */
     url(../images/mens.jpg);
 }
 
@@ -178,7 +182,7 @@ li a:hover {
       rgba(0, 0, 0, 0.50), 
       rgba(0, 0, 0, 0.10)
     ),
-    /* bottom, image */
+     /* URL for the image */
     url(../images/mix.jpg);
 }
 
@@ -188,7 +192,7 @@ li a:hover {
       rgba(0, 0, 0, 0.50), 
       rgba(0, 0, 0, 0.10)
     ),
-    /* bottom, image */
+     /* URL for the image */
     url(../images/womens.jpg);
 }
 /* this allows to resize the map used on contact page*/
@@ -345,10 +349,11 @@ body {
 	width: auto;
 	background-color: clear;
 }
-
+ /* header background colour */
 header {
   background: black;
 }
+ /* menu */
 
 ul {
     list-style-type: none;
@@ -560,11 +565,10 @@ li a {
 }
 
 /* images for Mens Page from here***************************************************** */
+
+ /* header on the mens page */
 h2 {
 	text-align:center;
-}
-
-
 }
 .xop-img-4 { 
  background: 
@@ -573,7 +577,7 @@ h2 {
       rgba(0, 0, 0, 0.10)
     ),
     /* bottom, image */
-    url(../images/nikeairforce.jpg);
+    url(../images/pumanetfit.jpg);
 }
 .xop-img-5 { 
  background: 
@@ -869,7 +873,7 @@ article{
     background-color: black;
     color: white;
 }
-.mens {
+.mens {	/*this animation is for the mens page heading "mens"*/
 	width: auto;
 	height: auto;
 	background: black;
@@ -881,6 +885,7 @@ article{
 	font-family: verdana;
 	animation: animate 3s linear infinite;
 }
+ /* animation used on mens page */
 @keyframes animate
 {
 	0%
