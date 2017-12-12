@@ -100,7 +100,7 @@ li a:hover {
 		left: -400%;
 	}
 	48% {
-		left: -400%; /* final frame from here goes backward */
+		left: -400%; 
 	}
 	58% { 
 		left: -400%;
@@ -152,7 +152,7 @@ li a:hover {
 	-moz-transition:  0.3s ease-in-out, 
     -moz-transform 0.3s ease-in-out;
     transition: all 0.3s ease-in-out, 
-    transform 0.3s ease-in-out,
+    transform 0.3s ease-in-out
 }
 .xop-box:hover {
 	transform: scale(1.05); 
@@ -361,8 +361,7 @@ width:auto;
 	width: auto;
 	height: auto;
 	line-height: 55px;
- 	margin: 20 20px;
-	text-align: center-right;
+	text-align: center;
 	cursor: pointer;
 	border-radius: 20%;
 	border: 5px solid #fff;
@@ -424,7 +423,7 @@ width:auto;
 	-moz-transition:  0.3s ease-in-out, 
     -moz-transform 0.3s ease-in-out;
     transition: all 0.3s ease-in-out, 
-    transform 0.3s ease-in-out, ;
+    transform 0.3s ease-in-out;
 }
 
 .xop-box:hover {
@@ -550,7 +549,7 @@ li a:hover {
 	animation: 25s slider infinite;
 }
 
-@keyframes slider{
+@keyframes slider
 	0% {
 		left: 0%;
 	}
@@ -579,7 +578,7 @@ li a:hover {
 		left: -400%;
 	}
 	48$ {
-		left: -400%; /* final frame from here goes backward */
+		left: -400%; 
 	}
 	58% { 
 		left: -400%;
@@ -604,7 +603,6 @@ li a:hover {
 	}
 	96% {
 		left: -0%;
-	}
 }
 ul {
     list-style-type: none;
@@ -864,7 +862,7 @@ h2 {
 	height: 40px;
 	line-height: 55px;
  	margin: 20 20px;
-	text-align: center-right;
+	text-align: center;
 	cursor: pointer;
 	border-radius: 20%;
 	border: 5px solid #fff;
@@ -896,7 +894,6 @@ h2 {
 .social ul li .fa{
 	color: #fff;
 	margin-top: 30px;
-	margin-left: px;
 	transition: all 0.5s ease;
 }
 .social ul li:hover:nth-child(2){
