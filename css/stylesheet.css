@@ -71,7 +71,7 @@ li a:hover {
 	animation: 25s slider infinite;
 }
 /* this key fram is used for the slider on the first page*/
-@keyframes slider
+@keyframes slider {
 	0% {
 		left: 0%;
 	}
@@ -126,7 +126,7 @@ li a:hover {
 	96% {
 		left: -0%;
 	}
-	
+}
 /* this is the grid used on the homepage to show images in square boxes*/
 .xop-grid {
 	margin: 0px;
@@ -549,7 +549,7 @@ li a:hover {
 	animation: 25s slider infinite;
 }
 
-@keyframes slider
+@keyframes slider {
 	0% {
 		left: 0%;
 	}
@@ -603,6 +603,7 @@ li a:hover {
 	}
 	96% {
 		left: -0%;
+	}
 }
 ul {
     list-style-type: none;
@@ -846,8 +847,6 @@ h2 {
     /* bottom, image */
     url(../images/womenswhitenmd.jpg);
 }
-/******************************************************************************************/
-}
 /*socail media icons */
 .social ul{
 	list-style: none;
@@ -861,7 +860,6 @@ h2 {
 	width: 40px;
 	height: 40px;
 	line-height: 55px;
- 	margin: 20 20px;
 	text-align: center;
 	cursor: pointer;
 	border-radius: 20%;
