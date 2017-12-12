@@ -31,6 +31,11 @@ ul {
     background-color: grey;
 }
 
+li {
+    float:center;
+	
+}
+
 li a {
     display: block;
     color: white;
@@ -368,6 +373,94 @@ width:auto;
 	float: right;
 	transition: all 0.5s ease;	
 }
+h1 {
+  font-size: 1.25em;
+  text-align: center;
+  background: #444;
+  color: #eee;
+  margin: 0;
+  padding: 0.5em;
+}
+article{
+	background-color:grey;
+	color:black;
+	width:auto;
+}
+/* this is for the table used on the homepage to show time and days the store is open*/
+#openingtimes {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	text-align: center;
+}
+
+#openingtimes  td, #openingtimes  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#openingtimes  tr:nth-child(even){background-color: #f2f2f2;}
+
+#openingtimes s tr:hover {background-color: #ddd;}
+
+#openingtimes  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.footer {  /* footer for the website*/
+	margin: 60px;
+	height: 70px;
+	width: 100%;
+	position:relative;
+	right:60px;
+	bottom:0px;
+	border-radius:5px;
+	color:white;
+	text-align:center;
+	padding: 0px;
+	font-size: 100%;
+	background-color: black;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 /*
   - this applies to any screen sizes under 500px
@@ -458,6 +551,43 @@ width:auto;
     ),
     /* bottom, image */
     url(../images/womens.jpg);
+}
+h1 {
+  font-size: 1.25em;
+  text-align: center;
+  background: #444;
+  color: #eee;
+  margin: 0;
+  padding: 0.5em;
+}
+article{
+	background-color:grey;
+	color:black;
+	width:auto;
+}
+/* this is for the table used on the homepage to show time and days the store is open*/
+#openingtimes {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	text-align: center;
+}
+
+#openingtimes  td, #openingtimes  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#openingtimes  tr:nth-child(even){background-color: #f2f2f2;}
+
+#openingtimes s tr:hover {background-color: #ddd;}
+
+#openingtimes  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
   /* 
@@ -848,96 +978,8 @@ h2 {
     url(../images/womenswhitenmd.jpg);
 }
 /*socail media icons */
-.social ul{
-	list-style: none;
-	margin:0px;
-	padding:0px;
-	display:flex;
-	background-color: black;	
-}
-/* style the list item inside ul list, by setting its width =, height, line-height and float etc */
-.social ul li{
-	width: 40px;
-	height: 40px;
-	line-height: 55px;
-	text-align: center;
-	cursor: pointer;
-	border-radius: 20%;
-	border: 5px solid #fff;
-	float: right;
-	transition: all 0.5s ease;	
-}
-	
-/* instagram */
-/* style icon by setting its colour and margins */
-.social ul li fa-instagram{
-	color: #fff;
-	margin-top: 40%;
-	margin-left: 40%;
-	transition: all 0.5s ease;
-}
+/* Style all font awesome icons */
 
-.social ul li:hover:nth-child(1){
-	border: 5px solid #C32AA3;
-	box-shadow: 0 0 15px #C32AA3;
-	transition: all 0.5s ease;
-}
-.social ul li:hover .fa fa-instagram{
-	color:#C32AA3;
-	text-shadow: 0 0 15px #C32AA3;
-	transition: all 0.5s ease;	
-}
-
-/* facebook */
-.social ul li .fa{
-	color: #fff;
-	margin-top: 30px;
-	transition: all 0.5s ease;
-}
-.social ul li:hover:nth-child(2){
-	border: 5px solid #3b5998;
-	box-shadow: 0 0 15px #3b5998;
-	transition: all 0.5s ease;
-}
-.social ul li:hover .fa fa-facebook{
-	color: #3B5998;
-	text-shadow: 0 0 15px #3B5998;
-	transition: all 0.5s ease;	
-}
-/* twitter */
-.social ul li .fa{
-	color: #fff;
-	margin-top: 20px;
-	margin-left: 22px;
-	transition: all 0.5s ease;
-}
-.social ul li:hover:nth-child(3){
-	border: 5px solid #00B6F1;
-	box-shadow: 0 0 15px #00B6F1;
-	transition: all 0.5s ease;
-}
-.social ul li:hover .fa fa-twitter-square{
-	color: #00B6F1;
-	text-shadow: 0 0 15px #00B6F1;
-	transition: all 0.5s ease;	
-}
-/* google */
-.social ul li .fa{
-	color: #fff;
-	margin-top: 20px;
-	margin-left: 22px;
-	transition: all 0.5s ease;
-}
-.social ul li:hover:nth-child(4){
-	border: 5px solid #DF4A32;
-	box-shadow: 0 0 15px #DF4A32;
-	transition: all 0.5s ease;
-}
-.social ul li:hover .fa fa-google-plus{
-	color: #DF4A32;
-	text-shadow: 0 0 15px #DF4A32;
-	transition: all 0.5s ease;
-}
 *{
 	margin:0;
 	padding:0;
@@ -962,8 +1004,7 @@ width:100%;
 	background-color: black;
 }
 h1 {
-	
-  font-size: 1.50em;
+  font-size: 1.25em;
   text-align: center;
   background: #444;
   color: #eee;
@@ -999,21 +1040,8 @@ article{
     background-color: black;
     color: white;
 }
-.mens {	/*this animation is for the mens page heading "mens"*/
-	width: auto;
-	height: 30px;
-	background: black;
-	border-radius: 1%;
-	color: #fff;
-	font-size: 20px;
-	text-align:center;
-	line-height:30px;
-	font-family: verdana;
-	animation: animate 3s linear infinite;
-}
  /* animation used on mens page */
-@keyframes animate
-{
+@keyframes animate{
 	0%
 	{
 		box-shadow: 0 0 0 0 rgba(255,109,74,.7);
@@ -1031,5 +1059,49 @@ article{
 		box-shadow: 0 0 0 0 rgba(255,109,74,.0);
 	}
 }
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 
 
