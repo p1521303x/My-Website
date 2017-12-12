@@ -10,8 +10,8 @@ body {
 }
 /* allow the page to auto arrange its margin and set with 1000px  */
 .wrapper {
-	margin:0px auto;
-	width:0px auto;
+	margin:auto;
+	width:auto;
 }
 /* this allow the logo to be resized or moved on the page*/
 .logo {
@@ -71,7 +71,7 @@ li a:hover {
 	animation: 25s slider infinite;
 }
 /* this key fram is used for the slider on the first page*/
-@keyframes slider{
+@keyframes slider
 	0% {
 		left: 0%;
 	}
@@ -99,7 +99,7 @@ li a:hover {
 	44% {
 		left: -400%;
 	}
-	48$ {
+	48% {
 		left: -400%; /* final frame from here goes backward */
 	}
 	58% { 
@@ -126,7 +126,7 @@ li a:hover {
 	96% {
 		left: -0%;
 	}
-}
+	
 /* this is the grid used on the homepage to show images in square boxes*/
 .xop-grid {
 	margin: 0px;
@@ -152,7 +152,7 @@ li a:hover {
 	-moz-transition:  0.3s ease-in-out, 
     -moz-transform 0.3s ease-in-out;
     transition: all 0.3s ease-in-out, 
-    transform 0.3s ease-in-out, ;
+    transform 0.3s ease-in-out,
 }
 .xop-box:hover {
 	transform: scale(1.05); 
@@ -160,9 +160,7 @@ li a:hover {
 
 /* 3 images on the homepage used inside a grid*/
 .xop-img-1 {
-	
- background:
-	
+background:
     linear-gradient(
       rgba(0, 0, 0, 0.50), 
       rgba(0, 0, 0, 0.10)
@@ -529,7 +527,7 @@ li a:hover {
 	margin-left: 10px;
 	margin-right: 1900px;
 	width:20%;
-	height:20%px; 
+	height:20%; 
 }
 
 .slider{
@@ -897,8 +895,8 @@ h2 {
 /* facebook */
 .social ul li .fa{
 	color: #fff;
-	margin-top: 10px;
-	margin-left: 22px;
+	margin-top: 30px;
+	margin-left: px;
 	transition: all 0.5s ease;
 }
 .social ul li:hover:nth-child(2){
