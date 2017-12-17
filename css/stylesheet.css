@@ -15,10 +15,10 @@ body {
 }
 /* this allow the logo to be resized or moved on the page*/
 .logo {
-	margin-left: 10px;
+	margin-left: 2px;
 	margin-right: 1900px;
-	width:15%;
-	height:15%; 
+	width:10%;
+	height:10%; 
 }
 
 /* header */
@@ -65,7 +65,7 @@ body {
   cursor: pointer;
   display: inline-block;
   float: left;
-  padding: 28px 20px;
+  padding: 5px 5px;
   position: relative;
   user-select: none;
 }
@@ -76,7 +76,7 @@ body {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 14px;
 }
 
 .header .menu-icon .navicon:before,
@@ -244,7 +244,7 @@ li a:hover {
 /* this allows to resize the map used on contact page*/
 #map{ /* google maps api layout  */
 height:400px;
-width:auto;	
+width:100%;	
 }
 /*this is for the social media icons */
 .social{
@@ -364,7 +364,27 @@ article{
   background: #125688;
   color: white;
 }
-
+  main { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+main div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+main div img { 
+  width: 100%; 
+}
 
 /*
   - this applies to any screen sizes under 500px
@@ -405,8 +425,8 @@ article{
 #openingtimes  td, #openingtimes  th {
     border: 1px solid #ddd;
     padding: 8px;
+	
 }
-
 #openingtimes  tr:nth-child(even){background-color: #f2f2f2;}
 
 #openingtimes s tr:hover {background-color: #ddd;}
@@ -425,7 +445,14 @@ article{
  content { 
  padding: 0;
  display: inline-block;
-  }
+ }
+ main div { margin: 0; }
+  main { padding: 0; }
+}
+#map{ /* google maps api layout  */
+height:400px;
+width:auto;	
+}
 
   /* 
     applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
@@ -435,7 +462,6 @@ article{
     - decrease width of sections
     - add `display: inline-block;` so that sections will float next to each other
   */
-}
 /* END FIRST BREAKPOINT */
 /*******************************************************************************/
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
@@ -758,7 +784,29 @@ content div img {
   .header .menu-icon {
     display: none;
   }
+  main { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
 }
+main div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+main div img { 
+  width: 100%; 
+  height: auto; 
+}
+  
 
 
 
