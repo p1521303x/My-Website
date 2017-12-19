@@ -32,8 +32,8 @@ body {
 }
 
 .header ul {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 0px;
   list-style: none;
   overflow: hidden;
   background-color: grey;
@@ -71,7 +71,7 @@ body {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: maroon;
   display: block;
   height: 2px;
   position: relative;
@@ -81,7 +81,7 @@ body {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: maroon;
   content: '';
   display: block;
   height: 100%;
@@ -163,11 +163,13 @@ li a:hover {
 .slider{
 	overflow: hidden;
 	height:auto;
+	width:100%;
 	
 }
 .slider figure div{
 		width: 20%;
 		float:left;
+		width:100%;
 
 }
 .slider figure img{
@@ -176,7 +178,7 @@ li a:hover {
 }
 .slider figure{
 	position: relative;
-	width: 500%;
+	width: 100%;
 	margin: 0;
 	left: 0;
 	animation: 25s slider infinite;
@@ -384,7 +386,50 @@ main div {
 }
 main div img { 
   width: 100%; 
+  height: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+main div:hover img {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.space {
+  height: 50px; /* spacing for the content that was being covered*/
+}
+.wave {
+	width:100%;
+	height:30px;
+	background: black;
+	border-radius:0%;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	line-height:30px;
+	animation: animate 3s linear infinite;
+}
+keyframes animate
+{
+	0%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,7);
+	}
+	40%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,7);
+	}
+	80%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,7);
+	}
+	100%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,7);
+	}
+}
+
 
 /*
   - this applies to any screen sizes under 500px
@@ -453,6 +498,48 @@ article{
 height:400px;
 width:auto;	
 }
+.wave {
+	width:100%;
+	height:30px;
+	background: black;
+	border-radius:0%;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	line-height:30px;
+	animation: animate 3s linear infinite;
+}
+main { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+main div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+main div img { 
+  width: 100%; 
+  height: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+main div:hover img {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
 
   /* 
     applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
@@ -469,8 +556,8 @@ width:auto;
 	
 /* allow the page to auto arrange itr margin and set with 1000px   */
 body {
-  margin:0;
-  padding:0;
+  margin:0px;
+  padding:0px;
   background:grey;
 }
 /* allow the page to auto arrange itr margin and set with 1000px   */
@@ -624,14 +711,13 @@ li a {
     padding: 10px;
 }
 
-
 *{
 	margin:0;
 	padding:0;
 }
 
 #map{ /* google maps api layout  */
-height:400px;
+height:500px;
 width:100%;	
 }
 .footer{  /* footer for the website*/
@@ -770,18 +856,25 @@ content div img {
   width: 100%; 
   height: auto; 
 }
+.header {
+  background-color: black;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
 .header li {
     float: left;
   }
-  .header li a {
+.header li a {
     padding: 10px 20px;
   }
-  .header .menu {
+.header .menu {
     clear: none;
     float: left;
     max-height: none;
   }
-  .header .menu-icon {
+.header .menu-icon {
     display: none;
   }
   main { 
@@ -804,8 +897,51 @@ main div {
 }
 main div img { 
   width: 100%; 
-  height: auto; 
+  height: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+main div:hover img {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.space {
+  height: 200px; /* Used in this example to enable scrolling */
+}
+.wave {
+	width:100%;
+	height:30px;
+	background: black;
+	border-radius:0%;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	line-height:30px;
+	animation: animate 3s linear infinite;
+}
+keyframes animate
+{
+	0%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,7);
+	}
+	40%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,7);
+	}
+	80%
+	{
+		box-shadow: 0 0 0 50px rgba(255,109,74,7);
+	}
+	100%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,74,7);
+	}
+}
+
   
 
 
