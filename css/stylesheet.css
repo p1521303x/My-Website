@@ -633,7 +633,7 @@ li a:hover {
 	animation: 25s slider infinite;
 }
 
-@keyframes slider 
+@keyframes slider {
 
 	0% {
 		left: 0%;
@@ -689,6 +689,7 @@ li a:hover {
 	96% {
 		left: -0%;
 	}
+}
 
 	
 ul {
@@ -777,7 +778,7 @@ article{
     background-color: black;
     color: white;
 }
- /* animation used on mens page */
+/*Here keyframes are used for animation effect on mens and womens page*/
 @keyframes animate{
 	0%
 	{
@@ -932,26 +933,7 @@ main div:hover img {
 	animation: animate 3s linear infinite;
 }
 
-/*Here keyframes are used for animation effect on mens and womens page*/
-@keyframes animate 
-{
-	0%
-	{
-		box-shadow: 0 0 0 0 rgba(255,109,74,7);
-	}
-	40%
-	{
-		box-shadow: 0 0 0 50px rgba(255,109,74,7);
-	}
-	80%
-	{
-		box-shadow: 0 0 0 50px rgba(255,109,74,7);
-	}
-	100%
-	{
-		box-shadow: 0 0 0 0 rgba(255,109,74,7);
-	}
-}
+
 
   
 
