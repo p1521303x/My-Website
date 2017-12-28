@@ -234,9 +234,14 @@ li a:hover {
 		left: -0%;
 	}
 }
-  content div { margin: 0; }
-  content { padding: 0; }
+content div {
+margin: 0px; 
 }
+	
+content {
+padding: 0px; 
+}
+
 /* this allows to resize the map used on contact page*/
 #map{ 
 height:400px;
@@ -627,6 +632,7 @@ li a:hover {
 }
 
 @keyframes slider 
+{	
 	0% {
 		left: 0%;
 	}
@@ -654,7 +660,7 @@ li a:hover {
 	44% {
 		left: -400%;
 	}
-	48$ {
+	48% {
 		left: -400%; 
 	}
 	58% { 
@@ -681,6 +687,7 @@ li a:hover {
 	96% {
 		left: -0%;
 	}
+}
 	
 ul {
     list-style-type: none;
@@ -922,7 +929,9 @@ main div:hover img {
 	line-height:30px;
 	animation: animate 3s linear infinite;
 }
-keyframes animate
+
+/*Here keyframes are used for animation effect on mens and womens page*/
+@keyframes animate 
 {
 	0%
 	{
