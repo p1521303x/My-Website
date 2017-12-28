@@ -409,7 +409,8 @@ main div:hover img {
 	line-height:30px;
 	animation: animate 3s linear infinite;
 }
-keyframes animate
+@keyframes animate
+{
 	0%
 	{
 		box-shadow: 0 0 0 0 rgba(255,109,74,7);
@@ -425,6 +426,7 @@ keyframes animate
 	100%
 	{
 		box-shadow: 0 0 0 0 rgba(255,109,74,7);
+	}
 }
 
 content div img { 
@@ -632,7 +634,7 @@ li a:hover {
 }
 
 @keyframes slider 
-{	
+
 	0% {
 		left: 0%;
 	}
@@ -687,7 +689,7 @@ li a:hover {
 	96% {
 		left: -0%;
 	}
-}
+
 	
 ul {
     list-style-type: none;
