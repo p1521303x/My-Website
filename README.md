@@ -27,7 +27,7 @@ finally, one of the most important aspect was learn is to structure the codes wh
 
 Tablet view is exactly the same as mobile view however as screen get bigger the content inside adjusts it layout to fit with the tablet size.
 
-
+- One error that I been facing when checking my website with the css validator is the keyframe, after many attempts to resolve it, I was unable and is just leading to increasing the number of errors therfore that error is left unsolved.
 
 <h1>Reference</h1>
 https://www.w3schools.com/css/css3_flexbox.asp "Used flexbox to preview all the products (trainers) on mens and womens page this, some of the codes were used from this websites onto mywebsite"

@@ -1,12 +1,13 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 /* GLOBAL STYLES */
 
-body {
+body {   /* this will show the body of the website */
   margin:0px;
   width:100%;
   height:100%;
   padding:0px;
-  background:maroon;
+  background:#800000;
+ 
 }
 /* allow the page to auto arrange its margin and set with 1000px  */
 .wrapper {
@@ -903,7 +904,7 @@ main div:hover img {
 .space {
   height: 240px; /* instead of using brake points used a space dive to space out from the header and slider */
 }
-.wave {
+.wave {                              /* animation used on mens and womens page */
 	width:100%;
 	height:30px;
 	background: black;
@@ -914,7 +915,7 @@ main div:hover img {
 	line-height:30px;
 	animation: animate 3s linear infinite;
 }
-.fa {
+.fa {									/* social media icons in the footer */
   padding: 15px;
   font-size: 30px;
   width: 10px;
@@ -924,35 +925,35 @@ main div:hover img {
   margin: 5px 2px;
 }
 
-.fa:hover {
+.fa:hover {					/* hover efffect when clicked on social media site */
     opacity: 0.7;
 }
 
-.fa-facebook {
+.fa-facebook {				/* facebook social media icon */
   background: #3B5998;
   color: white;
 }
-.fa-twitter {
+.fa-twitter {				/* twitter social media icon */
   background: #55ACEE;
   color: white;
 }
 
-.fa-google {
+.fa-google {				/* google social media icon */
   background: #dd4b39;
   color: white;
 }
 
-.fa-linkedin {
+.fa-linkedin {				/* linkin social media icon */
   background: #007bb5;
   color: white;
 }
 
-.fa-youtube {
+.fa-youtube {			/* youtube social media icon */
   background: #bb0000;
   color: white;
 }
 
-.fa-instagram {
+.fa-instagram {			/* instagram social media icon */
   background: #125688;
   color: white;
 }
