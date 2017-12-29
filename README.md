@@ -17,21 +17,21 @@ finally, one of the most important aspect was learn is to structure the codes wh
 
 <h1> Screen Designs </h1/>
 
+![](screendesigns/mobile1.JPG)
+
+![](screendesigns/mobile2.JPG)
+
+![](screendesigns/desktop1.JPG)
+
+![](screendesigns/desktop2.JPG)
 
 
-
-
-
-
-
-
-
-
-
+Tablet view is exactly the same as mobile view however as screen get bigger the content inside adjusts it layout to fit with the tablet size.
 
 
 
 <h1>Reference</h1>
+https://www.w3schools.com/css/css3_flexbox.asp "Used flexbox to preview all the products (trainers) on mens and womens page this, some of the codes were used from this websites onto mywebsite"
 https://xopixel.com/responsive-animated-image-grid-html5-css3/ "adapted this code for grides layout on my website and changing certain codes e.g. sizes and layouts to fit with my website "
 
 https://developers.google.com/maps/documentation/javascript/get-api-key " key that was needed to make my api to work which had to be generated from the google website"

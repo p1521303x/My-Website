@@ -398,9 +398,10 @@ main div img {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-main div:hover img {
+main div:hover img {   /* when mouse or clicked the hover effects take place*/
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
+	box-shadow: 0px 0px 50px yellow;
 }
 .space {
   height: 50px; /* spacing for the content that was being covered*/
@@ -509,7 +510,7 @@ article{
 height:400px;
 width:auto;	
 }
-.wave {
+.wave {   /* Animation */
 	width:100%;
 	height:30px;
 	background: black;
@@ -520,7 +521,7 @@ width:auto;
 	line-height:30px;
 	animation: animate 3s linear infinite;
 }
-main { 
+main { 		/* flexbox for the images on mens n womens page */
   padding: .5vw;
   font-size: 0;
   display: -ms-flexbox;
@@ -643,61 +644,78 @@ li a:hover {
 @keyframes slider 
 {
 	0% 	{
-		left: 0%;
+		left: 0;
 		}
+		
 	10% {
-		left: 0%;
+		left: 0;
 		}
+		
 	12% {
 		left: -100%;
 		}
+		
 	22% {
 		left: -100%;
 		}
+		
 	24% {
 		left: -200%;
 		}
+		
 	34% { 
 		left: -200%;
 		}
+		
 	36% {
 		left: -300%;
 		}
+		
 	40% {
 		left: -300%;
 		}
+		
 	44% {
 		left: -400%;
 		}
+		
 	48% {
 		left: -400%; 
 		}
+		
 	58% { 
 		left: -400%;
 		}
+		
 	60% {
 		left: -300%;
 		}
+		
 	70% {
 		left: -300%;
 		}
+		
 	72% {
 		left: -200%;
 		}
+		
 	82% {
 		left: -200%;
 		}
+		
 	84% {
 		left: -100%;
 		}
+		
 	94% { 
 		left: -100%;
 		}
+		
 	96% {
 		left: -0%;
 		}
 }
-
+		
 ul {
     list-style-type: none;
     margin: 0;
@@ -708,7 +726,6 @@ ul {
 
 li {
     float: left;
-	
 }
 
 li a {
@@ -725,8 +742,8 @@ li a {
 }
 
 *{
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
 }
 
 #map{ /* google maps api layout  */
@@ -939,12 +956,3 @@ main div:hover img {
   background: #125688;
   color: white;
 }
-
-
-
-
-
-
-
-
-
